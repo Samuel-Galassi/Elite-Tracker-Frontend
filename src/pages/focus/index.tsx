@@ -455,8 +455,8 @@ export const Focus = () => {
               return (
                 <div
                   style={{
-                    width: 48,
-                    height: 48,
+                    width: 40,
+                    height: 40,
                     borderRadius: '50%',
                     display: 'flex',
                     alignItems: 'center',

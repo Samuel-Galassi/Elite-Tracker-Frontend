@@ -436,7 +436,7 @@ export const Focus = () => {
                   : dayjs.tz(date, TZ).toISOString(),
               )
             }
-            size="xl"
+            size="lg"
             renderDay={(date: string | Date) => {
               const day = dayjs(date).local().date();
               const dateStr = dayjs(date).local().format('YYYY-MM-DD');
